@@ -1,0 +1,133 @@
+html body{
+    margin: 0px;
+    padding: 0px;
+    background: rgba(73,165,191,0.68);
+    background: -moz-linear-gradient(left, rgba(73,165,191,0.68) 0%, rgba(77,135,149,0.68) 98%, rgba(77,134,148,0.47) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(73,165,191,0.68)), color-stop(98%, rgba(77,135,149,0.68)), color-stop(100%, rgba(77,134,148,0.47)));
+    background: -webkit-linear-gradient(left, rgba(73,165,191,0.68) 0%, rgba(77,135,149,0.68) 98%, rgba(77,134,148,0.47) 100%);
+   background: -o-linear-gradient(left, rgba(73,165,191,0.68) 0%, rgba(77,135,149,0.68) 98%, rgba(77,134,148,0.47) 100%);
+   background: -ms-linear-gradient(left, rgba(73,165,191,0.68) 0%, rgba(77,135,149,0.68) 98%, rgba(77,134,148,0.47) 100%);
+   background: linear-gradient(to right, rgba(73,165,191,0.68) 0%, rgba(77,135,149,0.68) 98%, rgba(77,134,148,0.47) 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#49a5bf', endColorstr='#4d8694', GradientType=1 );
+}
+
+#logoFundacion {
+    width: 50%;
+    height: 50%;
+    border-radius: 25px;
+    position: relative;
+}
+
+#navbar{
+    background-color: rgba(22, 66, 124, 0.521);
+    position: fixed;
+    z-index: 1;
+    width: 84.3%;
+    height: 12%;
+    border-radius: 10px;
+    margin-top: -9%;
+    
+}
+
+#navbar-1{
+    position: relative;
+    left: 50%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+
+#navbar-1 a {
+    color: #000;
+}
+
+/*SLIDER*/
+
+#sliderContainer{
+   margin-top: 110px;
+}
+
+#slider1 {
+    width: 100%;
+    height: 30%;
+    border-radius: 2%;
+}
+
+/*FIN DEL SLIDER*/
+
+/*NOTICIAS RELEVANTES*/
+#containerNoticias h3 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
+    font-size: 50px;
+    margin-top: 5%;
+}
+
+#noticia1 {
+    background: none;
+    border: 1.5px dotted blue;
+    height: 100%;
+}
+
+
+#noticiaImg {
+    width: 100%;
+    height: 50%;
+}
+
+#noticia1 h4 {
+    font-size: 20px;
+    font-family: 'Neucha', cursive;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+#noticia1 p {
+    text-align: justify;
+    font-size: 14px;
+}
+
+#noticia1 button {
+    background: rgba(245, 101, 5, 0.631);
+    float: right;
+}
+/*FIN DE NOTICIAS RELEVANTES*/
+
+/*FOOTER*/
+#footer{
+    background-color: rgba(22, 66, 124, 0.521); 
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+#rowfooter{
+    color: white;
+}
+
+#sociales{
+    font-family: 'Neucha', cursive;
+    font-size: 22px;
+    font-weight: 500;
+    padding-top: 60px;
+}
+
+#contactanos{
+    padding-top: 50px;
+
+}
+
+#correo{
+    color: rgb(0, 0, 56);
+}
+
+#contactanos h5{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+
+#direccion h5{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+/*FIN FOOTER*/
