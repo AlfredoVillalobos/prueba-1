@@ -37,6 +37,61 @@ html body{
 #navbar-1 a {
     color: #000;
 }
+
+/*SECCION QUIENES SOMOS*/
+#quienes-somos{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+#quienes-somos-1{
+    width: 80%;
+    height: 250px;
+    margin-top: 50px;
+}
+
+.img-thumbnail{
+    width: 100%;
+    background: none;
+    padding: 20px;
+    margin: 0px 0px 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.img-fluid{
+    border-radius: 5%;
+}
+.img-fluid-1{
+    width: 90%;
+    height: 250px;
+
+}
+
+.img-bloque-3{
+    width: 100%;
+}
+
+#text{
+    text-align: justify;
+    margin-top: 10px;
+    
+}
+
+.thumbnail, h4{
+    font-family: 'Neucha', cursive;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.lista-1 {
+    margin-top: 10px;
+    text-align: left;
+}
+/*FIN SECCION QUIENES SOMOS*/
 /*FOOTER*/
 #footer{
     background-color: rgba(22, 66, 124, 0.521); 

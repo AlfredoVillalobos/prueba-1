@@ -16,9 +16,11 @@ html body{
     height: 50%;
     border-radius: 25px;
     position: relative;
+    display: inline-block;
 }
 
 #navbar{
+    width: 100%;
     background-color: rgba(22, 66, 124, 0.521);
     position: fixed;
     z-index: 1;
@@ -26,12 +28,11 @@ html body{
     height: 12%;
     border-radius: 10px;
     margin-top: -9%;
+
     
 }
 
 #navbar-1{
-    position: relative;
-    left: 50%;
     font-family: 'Dancing Script', cursive;
     font-size: 25px;
 }
